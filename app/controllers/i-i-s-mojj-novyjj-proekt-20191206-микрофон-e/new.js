@@ -1,4 +1,0 @@
-import IISMojj_novyjj_proekt_20191206МикрофонEController from '../i-i-s-mojj-novyjj-proekt-20191206-микрофон-e';
-
-var IISMojj_novyjj_proekt_20191206МикрофонENewController = IISMojj_novyjj_proekt_20191206МикрофонEController;
-export default IISMojj_novyjj_proekt_20191206МикрофонENewController;
