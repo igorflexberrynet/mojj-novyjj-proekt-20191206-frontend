@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "РаботникСцены",
+      "projection": "РаботникСценыL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Сцена",
+  "name": "IISMojj_novyjj_proekt_20191206СценаE",
+  "className": "СценаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-mojj-novyjj-proekt-20191206-сцена",
+      "modelProjection": "СценаE"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "Mojj_novyjj_proekt_20191206",
+  "applicationTitle": "Mojj_novyjj_proekt_20191206",
+  "items": [
+    {
+      "link": null,
+      "menuName": "mojj-novyjj-proekt-20191206",
+      "caption": "Mojj_novyjj_proekt_20191206",
+      "title": "Mojj_novyjj_proekt_20191206",
+      "children": [
+        {
+          "link": "i-i-s-mojj-novyjj-proekt-20191206-работник-сцены-l",
+          "menuName": null,
+          "caption": "Работник сцены",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-mojj-novyjj-proekt-20191206-микрофон-l",
+          "menuName": null,
+          "caption": "Микрофон",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-mojj-novyjj-proekt-20191206-сцена-l",
+          "menuName": null,
+          "caption": "Сцена",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

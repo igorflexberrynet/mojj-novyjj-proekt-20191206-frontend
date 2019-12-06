@@ -1,0 +1,106 @@
+﻿{
+  "name": "IISMojj_novyjj_proekt_20191206Сцена",
+  "modelName": "i-i-s-mojj-novyjj-proekt-20191206-сцена",
+  "className": "Сцена",
+  "nameSpace": "IIS.Mojj_novyjj_proekt_20191206",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "площадь",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": false,
+      "name": "работникСцены",
+      "relatedTo": "i-i-s-mojj-novyjj-proekt-20191206-работник-сцены",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СценаE",
+      "modelName": "i-i-s-mojj-novyjj-proekt-20191206-сцена",
+      "attrs": [
+        {
+          "name": "площадь",
+          "caption": "Площадь",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "РаботникСцены",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "default",
+          "caption": "Работник сцены",
+          "name": "работникСцены",
+          "relatedTo": "i-i-s-mojj-novyjj-proekt-20191206-работник-сцены",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "СценаL",
+      "modelName": "i-i-s-mojj-novyjj-proekt-20191206-сцена",
+      "attrs": [
+        {
+          "name": "площадь",
+          "caption": "Площадь",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "РаботникСцены",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "ФИО",
+          "name": "работникСцены",
+          "relatedTo": "i-i-s-mojj-novyjj-proekt-20191206-работник-сцены",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

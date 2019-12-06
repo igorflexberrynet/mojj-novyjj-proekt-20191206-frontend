@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISMojj_novyjj_proekt_20191206РаботникСцены",
+  "modelName": "i-i-s-mojj-novyjj-proekt-20191206-работник-сцены",
+  "className": "РаботникСцены",
+  "nameSpace": "IIS.Mojj_novyjj_proekt_20191206",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "фИО",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "РаботникСценыE",
+      "modelName": "i-i-s-mojj-novyjj-proekt-20191206-работник-сцены",
+      "attrs": [
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "РаботникСценыL",
+      "modelName": "i-i-s-mojj-novyjj-proekt-20191206-работник-сцены",
+      "attrs": [
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

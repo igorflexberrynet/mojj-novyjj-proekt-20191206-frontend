@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Микрофон",
+  "name": "IISMojj_novyjj_proekt_20191206МикрофонE",
+  "className": "МикрофонE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "mic",
+      "modelProjection": "МикрофонE"
+    }
+  ]
+}

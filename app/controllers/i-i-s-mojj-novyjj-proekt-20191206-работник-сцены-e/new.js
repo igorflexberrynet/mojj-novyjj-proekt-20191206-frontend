@@ -1,0 +1,4 @@
+import IISMojj_novyjj_proekt_20191206РаботникСценыEController from '../i-i-s-mojj-novyjj-proekt-20191206-работник-сцены-e';
+
+var IISMojj_novyjj_proekt_20191206РаботникСценыENewController = IISMojj_novyjj_proekt_20191206РаботникСценыEController;
+export default IISMojj_novyjj_proekt_20191206РаботникСценыENewController;
